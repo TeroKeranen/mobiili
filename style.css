@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(34, 33, 33);
+}
+
+.container {
+  height: auto;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.otsikko {
+  width: 90%;
+  margin-top: 30px;
+  color: rgb(243, 243, 243);
+}
+
+.height {
+  color: white;
+
+  height: 100px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+.width {
+  color: white;
+
+  height: 100px;
+}
+
+.pituus-value {
+  font-size: 21px;
+  margin-top: 10px;
+}
+
+.leveys-value {
+  font-size: 21px;
+  margin-top: 10px;
+}
