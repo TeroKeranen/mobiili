@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -18,12 +20,19 @@ body {
 }
 
 .otsikko {
+  font-family: Bebas Neue;
+  letter-spacing: 3px;
+  line-height: 50px;
   width: 90%;
   margin-top: 30px;
   color: rgb(243, 243, 243);
 }
 
 .height {
+  font-size: 20px;
+  letter-spacing: 3px;
+
+  font-family: Bebas Neue;
   color: white;
 
   height: 100px;
@@ -32,17 +41,22 @@ body {
 }
 
 .width {
+  font-size: 20px;
+  letter-spacing: 3px;
+  font-family: Bebas Neue;
   color: white;
 
   height: 100px;
 }
 
 .pituus-value {
+  font-family: Bebas Neue;
   font-size: 21px;
   margin-top: 10px;
 }
 
 .leveys-value {
+  font-family: Bebas Neue;
   font-size: 21px;
   margin-top: 10px;
 }
